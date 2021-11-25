@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SearchTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-11-24T17:36:22" hostname="MacBook-Pro-od-Elina.local" time="8.597">
+  <properties/>
+  <testcase name="selenideSerachText()" classname="SearchTest" time="8.597"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 64939
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 24, 2021 7:36:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Nov 24, 2021 7:36:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 96
+]]></system-err>
+</testsuite>
