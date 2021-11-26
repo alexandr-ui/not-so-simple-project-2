@@ -1,18 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="SearchTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-11-24T17:36:22" hostname="MacBook-Pro-od-Elina.local" time="8.597">
+<testsuite name="SearchTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-11-26T08:25:38" hostname="MacBook-Pro-od-Elina.local" time="12.121">
   <properties/>
-  <testcase name="selenideSerachText()" classname="SearchTest" time="8.597"/>
+  <testcase name="selenideSearchText()" classname="SearchTest" time="7.259"/>
+  <testcase name="allureSearchText()" classname="SearchTest" time="4.861"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 64939
+  <system-err><![CDATA[[Test worker] INFO SearchTest - @BeforeALL method
+[Test worker] INFO SearchTest - @BeforeEach method
+[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 11 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: /Users/alexbear/IdeaProjects/Project_gradle_test/build/downloads/1637915138417_89152_11
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/alexbear/.cache/selenium/chromedriver/mac64/96.0.4664.45/chromedriver
+Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 42952
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Nov 24, 2021 7:36:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Nov 26, 2021 10:25:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Nov 24, 2021 7:36:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found exact CDP implementation for version 96
+[Test worker] INFO com.codeborne.selenide.webdriver.HttpClientTimeouts - Changed connectTimeout from 120000 to 60000
+[Test worker] INFO com.codeborne.selenide.webdriver.HttpClientTimeouts - Changed readTimeout from 10800000 to 120000
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=96.0.4664.55 Platform=MAC
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 5.25.0
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Create webdriver in current thread 11: ChromeDriver -> ChromeDriver: chrome on MAC (e9f58e6a59fce872c852a5544ec3cb2c)
+[Test worker] INFO SearchTest - This is selenide test!
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 11 -> ChromeDriver: chrome on MAC (e9f58e6a59fce872c852a5544ec3cb2c)...
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 11 in 122 ms
+[Test worker] INFO SearchTest - @BeforeEach method
+[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 11 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: /Users/alexbear/IdeaProjects/Project_gradle_test/build/downloads/1637915145628_89152_11
+Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 6531
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 26, 2021 10:25:47 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Test worker] INFO com.codeborne.selenide.webdriver.HttpClientTimeouts - Changed connectTimeout from 120000 to 60000
+[Test worker] INFO com.codeborne.selenide.webdriver.HttpClientTimeouts - Changed readTimeout from 10800000 to 120000
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=96.0.4664.55 Platform=MAC
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 5.25.0
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Create webdriver in current thread 11: ChromeDriver -> ChromeDriver: chrome on MAC (f752d623e7b095c32067efb01106958f)
+[Test worker] INFO SearchTest - This is allure test!
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 11 -> ChromeDriver: chrome on MAC (f752d623e7b095c32067efb01106958f)...
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 11 in 115 ms
 ]]></system-err>
 </testsuite>
