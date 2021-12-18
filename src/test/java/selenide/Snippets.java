@@ -3,6 +3,8 @@ package selenide;
 import com.codeborne.selenide.*;
 import org.openqa.selenium.Keys;
 
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.time.Duration;
 
 import static com.codeborne.selenide.CollectionCondition.*;
@@ -183,7 +185,21 @@ public class Snippets {
 
     }
 
-    void file_operations_examples() {
+    void file_operations_examples() throws FileNotFoundException {
+        File file1 = $("a file link").download(); //only for <a href=".."> links
+        File file2 = $("div").download(DownloadOptions.using(FileDownloadMode.FOLDER)); //more common but may have issues with Grid/Selenoid
 
+        File file = new File("src/test/resources/readme.txt");
+        $("#file-upload").uploadFile(file);
+        $("#file-upload").uploadFromClasspath("readme.txt");
+        // don't forget to submit!
+        $("uploadButton").click();
+
+    }
+
+    void javascript_examples() {
+        executeJavaScript("alert('selenide')");
+        executeJavaScript("alert(arguments[0]+arguments[1])", "abc", 12);
+        long fortytwo = executeJavaScript("return arguments[0]+arguments[1];", 6, 7);
     }
 }
